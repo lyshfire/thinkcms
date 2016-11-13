@@ -1,0 +1,30 @@
+[ 2016-10-15T14:58:14+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+ERR: 非法操作:userLogin
+
+[ 2016-10-15T15:03:05+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+ERR: 非法操作:userLogin
+
+[ 2016-10-15T15:07:21+08:00 ] ::1 /thinkcms/admin.php/Login/checkUser
+ERR: 非法操作:checkUser
+
+[ 2016-10-15T15:07:54+08:00 ] ::1 /thinkcms/admin.php/Login/checkUser
+ERR: 非法操作:checkUser
+
+[ 2016-10-15T15:13:12+08:00 ] ::1 /thinkcms/admin.php/Login/checkUser
+ERR: 非法操作:checkUser
+
+[ 2016-10-15T15:13:25+08:00 ] ::1 /thinkcms/admin.php/Login/checkUser
+ERR: 非法操作:checkUser
+
+[ 2016-10-15T16:20:06+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( admin ) 
+
+[ 2016-10-15T20:57:50+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( admin ) 
+
+[ 2016-10-15T20:58:38+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( username = admin ) 
+

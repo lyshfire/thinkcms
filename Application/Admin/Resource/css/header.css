@@ -1,0 +1,29 @@
+body{
+	padding-top: 60px;
+}
+.mynavbar a{	
+	margin-right: 10px;
+}
+
+/*控制菜单箭头*/
+.nav-header.collapsed > span.glyphicon-chevron-toggle:before {
+    content: "\e114";
+}
+
+.nav-header > span.glyphicon-chevron-toggle:before {
+    content: "\e113";
+}
+.firstmenu li {
+	margin-bottom: 5px;
+}
+.secondmenu a {
+    font-size: 14px;
+}
+.secondmenu li{
+	margin-bottom: 5px;
+}
+.secondmenu li.active {
+    background-color: #eee;
+    border-color: #428bca;
+    margin-top: 5px;
+}

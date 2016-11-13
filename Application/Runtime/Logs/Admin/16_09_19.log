@@ -1,0 +1,213 @@
+[ 2016-09-19T20:56:30+08:00 ] ::1 /thinkcms/admin.php/home/login/index
+ERR: 无法加载控制器:Home
+
+[ 2016-09-19T20:56:47+08:00 ] ::1 /thinkcms/admin.php/admin/login/index
+ERR: 无法加载控制器:Admin
+
+[ 2016-09-19T21:22:30+08:00 ] ::1 /thinkcms/admin.php/Login/insert
+ERR: 非法操作:insert
+
+[ 2016-09-19T23:35:47+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:35:47+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:35:47+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:36:14+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:36:14+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:36:14+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:37:42+08:00 ] ::1 /thinkcms/admin.php/resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:37:43+08:00 ] ::1 /thinkcms/admin.php/resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:37:43+08:00 ] ::1 /thinkcms/admin.php/resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:38:39+08:00 ] ::1 /thinkcms/admin.php/resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:38:39+08:00 ] ::1 /thinkcms/admin.php/resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:38:39+08:00 ] ::1 /thinkcms/admin.php/resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:39:33+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:39:33+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:39:33+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:40:20+08:00 ] ::1 /thinkcms/admin.php/login/Application/Admin/View/Resource/css/bootstrap-3.3.0.min.css
+ERR: 非法操作:Application
+
+[ 2016-09-19T23:40:20+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:40:20+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:40:37+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:40:37+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:40:38+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:40:38+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:41:37+08:00 ] ::1 /thinkcms/admin.php/login/Application/Admin/View/Resource/css/bootstrap-3.3.0.min.css
+ERR: 非法操作:Application
+
+[ 2016-09-19T23:41:37+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:41:37+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:41:55+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:41:55+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:41:55+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:43:53+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:43:53+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:43:53+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:45:11+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap-3.3.0.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:45:11+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:45:11+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:45:53+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:45:53+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:51:01+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:51:01+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:51:33+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:51:33+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:51:33+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:00+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:00+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:00+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:02+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:02+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:02+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:03+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:03+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:03+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:04+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:04+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:04+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:05+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:05+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:05+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:06+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:06+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:06+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:20+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:20+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:20+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:21+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:21+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:21+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:22+08:00 ] ::1 /thinkcms/admin.php/Resource/css/bootstrap.min.css
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:22+08:00 ] ::1 /thinkcms/admin.php/Resource/js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Resource
+
+[ 2016-09-19T23:58:22+08:00 ] ::1 /thinkcms/admin.php/Resource/js/bootstrap-3.3.0.min.js
+ERR: 无法加载控制器:Resource
+
