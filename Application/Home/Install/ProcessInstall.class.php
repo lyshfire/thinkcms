@@ -95,7 +95,7 @@
 				}
 			}
 		
-			$insert="INSERT INTO ".$input['TABPREFIX']."user(gid,username, userpwd, email,regtime) VALUES('1','".$user["ADMIN_USER"]."', '".md5($user["ADMIN_PWD"])."','".$user["ADMIN_MAIL"]."','".time()."')";
+			$insert="INSERT INTO ".$input['TABPREFIX']."user(gid,username, userpwd, useremail,regtime) VALUES('1','".$user["ADMIN_USER"]."', '".md5($user["ADMIN_PWD"])."','".$user["ADMIN_MAIL"]."','".date("Y-m-d h:i:s")."')";
 			
 			if(mysqli_query($con,$insert)){
 				$this->info.='添加管理员用户<b>'.$user["ADMIN_USER"].'</b>成功！<br>';

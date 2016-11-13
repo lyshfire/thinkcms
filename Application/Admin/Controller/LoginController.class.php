@@ -54,9 +54,9 @@ class LoginController extends Controller {
                 $data  = array("ret"  => true);      
             }elseif ($result == -1) {
                 $data  = array("ret" => "userpwd");
-            }else{
+            }elseif ($result == -2){
                 $data  = array("ret" => "username");
-            }        
+            }       
     	}
         $this->ajaxReturn($data);  	
     }

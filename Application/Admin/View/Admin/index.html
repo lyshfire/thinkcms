@@ -18,20 +18,56 @@
 		<nav class="nav navbar-default navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target="#header-collapse">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-collapse">
 						<span class="sr-only">切换导航</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
+					
 					<a class="navbar-brand">***管理系系统</a>
 				</div>
 				<div class="collapse navbar-collapse" id="header-collapse">
-					<ul class=" nav navbar-nav mynavbar navbar-right">
-						<li><a>欢迎您!&nbsp;&nbsp;<span>{$username}</span></a></li>
-						<li><a href="__SELF__">首页</a></li>
-						<li><a href="__MODULE__/Login/userLogout">退出</a></li>
+					<ul class="nav nav-tabs navbar-nav mynavbar navbar-right">
+						<li>
+							<a class="dropdown-toggle" data-toggle="dropdown">
+								<span>{$username}</span>
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+						        <li>
+						            <a href="#" class="text-center">个人信息</a>
+						        </li>
+						        <li>
+						            <a href="#" class="text-center">切换帐号</a>
+						        </li>						        
+						        <li>
+						            <a href="__MODULE__/Login/userLogout" class="text-center">退出</a>
+						        </li>
+						    </ul>
+						</li>
+						<li>
+							<a>
+								<span class="glyphicon glyphicon-envelope"></span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-envelope"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+						        <li>
+						            <a href="#" class="text-center">默认(黑色)</a>
+						        </li>
+						        <li>
+						            <a href="#" class="text-center">蓝色</a>
+						        </li>						        
+						        <li>
+						            <a href="#" class="text-center">黄色</a>
+						        </li>
+						    </ul>
+							
+						</li>
 					</ul>
 				</div>				
 			</div>
@@ -46,15 +82,18 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row">
+					
 				<div class="tabbable col-md-3">
 					<ul class="nav nav-tabs">
 						<li class="li_tabs"><a href="#systemManager" data-toggle="tab">系统管理</a></li>
 						<li class="li_tabs"><a href="#contentManager" data-toggle="tab">内容管理</a></li>
 						<li class="li_tabs"><a href="#userManager" data-toggle="tab">用户管理</a></li>
+
 					</ul>
-					<div class="tab-content">						
-						<div id="systemManager" class="tab-pane active">													
-							<ul class="nav nav-tabs nav-stacked firstmenu">
+
+					<div class="tab-content scrollable-y">
+						<div id="systemManager" class="tab-pane active">					
+						<ul class="nav nav-tabs nav-stacked firstmenu">
 								<li class="li_tabs">					
 									<a href="#commonManager" class="nav-header collapsed" data-toggle="collapse" >
 										<i class="glyphicon glyphicon-cog"></i>
@@ -62,7 +101,7 @@
 										<span class="pull-right glyphicon glyphicon-chevron-toggle"></span>
 									</a>
 									<ul id="commonManager" class="nav nav-list collapse secondmenu" style="height: 0px;">
-		                            	<li><a href="#systemInfo" data-toggle="tab"><i class="glyphicon glyphicon-user"></i>&nbsp;系统信息</a></li>
+		                            	<li class="li_systemInfo"><a href="#systemInfo" data-toggle="tab"><i class="glyphicon glyphicon-user"></i>&nbsp;系统信息</a></li>
 		                            	<li><a href="#basicSetting" data-toggle="tab"><i class="glyphicon glyphicon-th-list"></i>&nbsp;基本设置</a></li>
 		                            	<li><a href="#updateCache" data-toggle="tab"><i class="glyphicon glyphicon-asterisk"></i>&nbsp;更新缓存</a></li>
 		                        	</ul>
@@ -86,11 +125,13 @@
 									</a>
 									<ul id="friendLinkManager" class="nav nav-list collapse secondmenu" style="height: 0px;">
 		                            	<li><a href="#friendLinkAdd" data-toggle="tab"><i class="glyphicon glyphicon-user"></i>&nbsp;添加友情链接</a></li>
-		                            	<li><a href="#friendLinkList" data-toggle="tab"><i class="glyphicon glyphicon-th-list"></i>&nbsp;管理友情链接</a></li>                           	
+		                            	<li><a href="#friendLinkList" data-toggle="tab"><i class="glyphicon glyphicon-th-list"></i>&nbsp;管理友情链接</a></li> 
+
 		                        	</ul>
 								</li>
 							</ul>
 						</div>
+
 						<div id="contentManager" class="tab-pane ">						
 							<ul class="nav nav-tabs nav-stacked firstmenu">
 								<li class="li_tabs">					
@@ -128,6 +169,7 @@
 								</li>
 							</ul>
 						</div>
+
 						<div id="userManager" class="tab-pane ">						
 							<ul class="nav nav-tabs nav-stacked firstmenu">
 								<li class="li_tabs">					
@@ -159,15 +201,14 @@
 				</div>
 					
 				<div class="col-md-9" >
-					<div class="tab-content">										
-						<div id="systemManager" class="tab-pane active">
+					<div class="tab-content scrollable-y">									<div id="systemManager" class="tab-pane active">
 							<!--带标题面板 -->
 							<div class="panel panel-default">
 							  <div class="panel-heading">
 							  	<div class="container-fluid">
 								    <a>
-								    	<i class="glyphicon glyphicon-th"></i>											
-										后台首页
+								    	<i class="glyphicon glyphicon-th"></i>
+								    	后台首页
 								    </a>
 								</div>
 							  </div>
@@ -218,8 +259,8 @@
 							  <div class="panel-heading">
 							  	<div class="container-fluid">
 								    <a>
-								    	<i class="glyphicon glyphicon-th"></i>											
-										后台首页
+								    	<i class="glyphicon glyphicon-th"></i>
+								    	后台首页
 								    </a>
 								</div>
 							  </div>
@@ -354,11 +395,11 @@
 							</div>
 						</div>
 						
-						<div id="systemInfo" class="tab-pane ">						
-							<div class="panel panel-default">
+						<div id="systemInfo" class="tab-pane ">				
+						<div class="panel panel-default">
 								<div class="panel-heading">
 									<a>
-										<i class="glyphicon glyphicon-th"></i>											
+										<i class="glyphicon glyphicon-th"></i>			
 										系统管理
 										<i class="glyphicon glyphicon-chevron-right"></i>
 										常规管理
@@ -369,50 +410,9 @@
 								<div class="panel-body">
 								    
 								</div>
-								<!--响应式表格-->
+								<!--响应式表格,数据在js中生成-->
 								<div class="table-responsive">
-									<table class="table">
-	    								<thead>
-										    <tr>
-										      <th>名称</th>
-										      <th>信息</th>									      
-										    </tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>服务器环境：</td>
-												<td>WINNT&nbsp;|&nbsp;Apache/2.4.17(win32)&nbsp;OpenSSL/1.0.2d&nbsp;PHP/5.6.23</td>
-											</tr>
-											<tr>
-												<td>域名：</td>
-												<td>localhost</td>
-											</tr>
-											<tr>
-												<td>PHP版本：</td>
-												<td>5.6.23</td>
-											</tr>
-											<tr>
-												<td>GD库版本：</td>
-												<td>bundled(2.1.0&nbsp;compatible)</td>
-											</tr>
-											<tr>
-												<td>MySQL版本：</td>
-												<td>5.5.5-10.1.13</td>
-											</tr>
-											<tr>
-												<td>FreeType：</td>
-												<td>支持</td>
-											</tr>
-											<tr>
-												<td>远程文件获取：</td>
-												<td>支持</td>
-											</tr>
-											<tr>
-												<td>文件上传：</td>
-												<td>允许&nbsp;|&nbsp;文件：2M&nbsp;|&nbsp;表单：8M</td>
-											</tr>										
-										</tbody>
-	  								</table>
+
 	  							</div>
 							</div>							
 						</div>
@@ -467,7 +467,7 @@
 									    		<label class="col-sm-2 control-label">水印图片</label>
 									    		<div class="col-sm-2">
 												   <div class="thumbnail">
-												    	<img src="../Resource/images/xsphp_f.png" alt="细说PHP">	
+												    	<img src="__ROOT__/Application/Admin/Resource/images/xsphp_f.png" alt="细说PHP">	
 												    </div>	
 												</div>
 												
@@ -1031,33 +1031,16 @@
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
 	
 </body>
 	<script type="text/javascript" src="__ROOT__/Public/Resource/js/jquery-2.1.4.min.js" ></script>
+	<script type="text/javascript" src="__ROOT__/Application/Admin/Resource/js/admin_main.js"></script> 
 	<script type="text/javascript" src="__ROOT__/Public/Resource/js/bootstrap-3.3.5.min.js" ></script>
 	<script type="text/javascript" src="__ROOT__/Public/Resource/ckeditor_4.5.11_full/ckeditor.js" ></script>
-	<script type="text/javascript" src="__ROOT__/Application/Admin/Public/Resource/js/loginout.js"></script>
-	<script type="text/javascript">
-		$('.tabbable a[data-toggle="tab"]').eq(0).tab('show');
-        $('.tabbable a[data-toggle="tab"]').on('click', function (e) {
- 
-            $('.tabbable a[data-toggle="tab"]').parent('li').removeClass('active');
-            $('.tabbable a[data-toggle="tab"]').removeClass('active');
-            $(this).addClass('active');
- 
-        });
-        
-        $('.li_tabs a').click(function(){  
-        	tarId = $(this).attr("href").substring(1);
-        	tarDiv = $("div[id = " + tarId + "]");
-        	tarDiv.addClass('active');
-        	tarDiv.siblings('div').removeClass('active');       	
-        });
-        
-        CKEDITOR.replace('TextArea');
-        
-	</script>
+	
+
 </html>

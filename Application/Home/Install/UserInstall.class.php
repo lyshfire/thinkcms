@@ -93,7 +93,7 @@
 					break;
 				case 6:
 					//$this->delDir('./Application/Runtime');
-					if(file_put_contents ("__ROOT__/Application/Runtime/install.lock", "BroCMS INATALL OK ...")){
+					if(file_put_contents ($_SERVER['SCRIPT_NAME'])."/Application/Runtime/install.lock", "BroCMS INATALL OK ...")){
 						//return '<script>window.location="../index.php"</script>';
 						return 'install ok';
 					}else{

@@ -1,4 +1,4 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 	<head>
 		<title>XSCMS内容管理系统--LAMP兄弟连网络工作室 </title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -127,19 +127,12 @@
 	
 	<body>
 		<?php
-			error_reporting(E_ALL ^ E_NOTICE);
-			if(file_exists("./Application/Runtime/install.lock")){
-				echo '<div class="error">你已经安装过本系统<br>如果需要重新安装请删除文件'.str_replace("\\", "/", dirname(dirname(dirname(__FILE__)))).'/install.lock</div>';
-				exit;	
-			}
-		?>
+ error_reporting(E_ALL ^ E_NOTICE); if(file_exists("./Application/Runtime/install.lock")){ echo '<div class="error">你已经安装过本系统<br>如果需要重新安装请删除文件'.str_replace("\\", "/", dirname(dirname(__FILE__))).'/install_lock.txt</div>'; exit; } ?>
 		<div id="main-box">
 			<div class="head-dark-box">
 				<strong>BroCMS 2.0内容管理系统安装向导</strong>
 			</div>	
-			{$data}
+			<?php echo ($data); ?>
 		</div>
 	</body>
 </html>
-
- 

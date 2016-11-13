@@ -1,4 +1,0 @@
-[ 2016-09-25T22:59:48+08:00 ] ::1 /thinkcms/admin.php/Login/checkUser
-ERR: 1054:Unknown column 'admin' in 'where clause'
- [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( username=admin ) 
-

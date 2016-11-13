@@ -56,7 +56,7 @@
 	        	<div class="form-group">
 	  				<label class="sr-only control-label"></label>
 	  				<div class="col-sm-12">
-	  					<button id="submit" type="submit" class="btn  btn-default btn-block">登录</button>
+	  					<button id="submit" type="button" class="btn  btn-default btn-block">登录</button>
 	  				</div>	
 	        	</div>	
 
@@ -68,10 +68,10 @@
 
 	        	<div class="form-group">	        		  
 	          		<div class="col-sm-6 ">
-	          			<span><a>忘记密码？</a></span>
+	          			<span><a href="/thinkcms/admin.php/Password/index">忘记密码？</a></span>
 	          		</div>
 	          		<div class="col-sm-6 ">
-	          			<span ><a href="/thinkcms/admin.php/Password/index">注册帐号</a></span>
+	          			<span ><a href="/thinkcms/admin.php/Register/index">注册帐号</a></span>
 	          		</div>
 	        	</div>  	        		
 	        	 		

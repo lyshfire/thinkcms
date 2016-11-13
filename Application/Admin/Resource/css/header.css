@@ -1,7 +1,11 @@
 body{
 	padding-top: 60px;
 }
-.mynavbar a{	
+
+.mynavbar{
+    padding-right: 30px;
+}
+.mynavbar li{	
 	margin-right: 10px;
 }
 
@@ -26,4 +30,10 @@ body{
     background-color: #eee;
     border-color: #428bca;
     margin-top: 5px;
+}
+
+/* 垂直滚动条,参考.pre-scrollable */
+.scrollable-y {
+  max-height: 500px;
+  overflow-y: auto; /*visible(默认值)、scroll、hidden、auto */
 }

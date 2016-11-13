@@ -1,0 +1,234 @@
+[ 2016-11-07T21:33:14+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0210s ]
+
+[ 2016-11-07T21:33:14+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+
+[ 2016-11-07T21:33:15+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T21:33:15+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+
+[ 2016-11-07T21:33:17+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin'  [ RunTime:0.0010s ]
+
+[ 2016-11-07T21:33:32+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T21:33:33+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+
+[ 2016-11-07T21:33:33+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T21:33:35+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T21:33:35+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T21:33:37+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T21:33:45+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'zhangjiadi'  [ RunTime:0.0010s ]
+
+[ 2016-11-07T22:07:43+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0330s ]
+
+[ 2016-11-07T22:07:44+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0100s ]
+
+[ 2016-11-07T22:07:45+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0100s ]
+
+[ 2016-11-07T22:07:46+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T22:07:57+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-07T22:07:58+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-07T22:07:58+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0090s ]
+
+[ 2016-11-07T22:07:58+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T22:07:59+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-07T22:08:00+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0080s ]
+
+[ 2016-11-07T22:08:02+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0750s ]
+
+[ 2016-11-07T22:08:03+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0120s ]
+
+[ 2016-11-07T22:08:04+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'lliangys'  [ RunTime:0.0010s ]
+
+[ 2016-11-07T22:08:12+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'liangys'  [ RunTime:0.0700s ]
+
+[ 2016-11-07T22:09:51+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0100s ]
+
+[ 2016-11-07T22:09:52+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+
+[ 2016-11-07T22:09:52+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+
+[ 2016-11-07T22:09:53+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+
+[ 2016-11-07T22:09:54+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin'  [ RunTime:0.0010s ]
+
+[ 2016-11-07T22:09:58+08:00 ] ::1 /thinkcms/admin.php/Login/admin.php
+ERR: 非法操作:admin.php
+
+[ 2016-11-07T22:10:16+08:00 ] ::1 /thinkcms/admin.php/Login/admin.php
+ERR: 非法操作:admin.php
+
+[ 2016-11-07T22:25:41+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+
+[ 2016-11-07T22:25:41+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-07T22:25:42+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-07T22:25:43+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-07T22:25:45+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-07T22:25:46+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin'  [ RunTime:0.1070s ]
+

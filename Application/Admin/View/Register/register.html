@@ -12,7 +12,7 @@
 	<div class="col-lg-4 col-lg-offset-4 col-md-6 col-sm-6" id="logindev">
 		<form  class="form" >		
 			<div class="form-horizontal">		
-				<h3 class="form-signin-heading ">修改密码</h3>
+				<h3 class="form-signin-heading ">注册帐号</h3>
 
 				<div class="form-group">
 					<label for="inputUsername" class="col-sm-3 control-label">
@@ -25,8 +25,32 @@
 	  					<span class="usernameinfo"></span>
 	  				</div>
 				</div>	
-				
-				<div class="form-group"> 
+	  			
+	  			<div class="form-group"> 
+					<label for="inputPassword" class="col-sm-3 control-label">
+						<span class="pull-left">用户密码</span>
+					</label>
+	    			<div class="col-sm-9">
+	    				<input type="password" class="form-control" id="inputPassword" name="userpwd" placeholder="请输入密码">
+	    			</div>
+	    			<div class="col-sm-12">
+	  					<span class="userpwdinfo"></span>
+	  				</div>
+	  			</div>
+
+	  			<div class="form-group"> 
+					<label for="inputRePassword" class="col-sm-3 control-label">
+						<span class="pull-left">确认密码</span>
+					</label>
+	    			<div class="col-sm-9">
+	    				<input type="password" class="form-control" id="inputRePassword" name="userrepwd" placeholder="请输入密码">
+	    			</div>
+	    			<div class="col-sm-12">
+	  					<span class="userrepwdinfo"></span>
+	  				</div>
+	  			</div>
+
+	  			<div class="form-group"> 
 					<label for="inputEmail" class="col-sm-3 control-label">
 						<span class="pull-left">邮箱地址</span>
 					</label>
@@ -37,27 +61,13 @@
 	  					<span class="useremailinfo"></span>
 	  				</div>
 	  			</div>
-	  			
-	  			<div class="form-group"> 
-					<label for="inputPassword" class="col-sm-3 control-label">
-						<span class="pull-left">新密码</span>
-					</label>
-	    			<div class="col-sm-9">
-	    				<input type="password" class="form-control" id="inputPassword" name="userpwd" placeholder="请输入密码">
-	    			</div>
-	    			<div class="col-sm-12">
-	  					<span class="userpwdinfo"></span>
-	  				</div>
-	  			</div>
-
-	  			
 
 	        	<div class="form-group">
 	  				<div class="col-sm-offset-3 col-sm-3">
-	  					<button id="setpwdsubmit" type="submit" class="btn  btn-default btn-block">确定</button>
+	  					<button id="regsubmit" type="button" class="btn  btn-default btn-block">确定</button>
 	  				</div>
 	  				<div class="col-sm-3">
-	  					<button id="setpwdreset" type="submit" class="btn  btn-default btn-block">重置</button>
+	  					<button id="retreset" type="button" class="btn  btn-default btn-block">重置</button>
 	  				</div>	
 	        	</div>		        		
 	        	 		

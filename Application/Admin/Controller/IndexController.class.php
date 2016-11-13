@@ -8,5 +8,38 @@ class IndexController extends Controller {
 		$login = A("Login");
     	$login->index();
     }
+
+    /* 获取系统信息 */
+    public function getSystemInfo(){
+    	/* 获取GD库版本信息 */
+    	if (function_exists('gd_info')) {
+    		$gdInfo = "";
+    		foreach (gd_info() as $key => $value) {
+    		 	$gdInfo .= "$key <b>:</b> $value<br>";
+    		 } 
+    	}else{
+    		$gdInfo = "Disabled";
+    	}
+    	$data = array(
+    		"操作系统："       => php_uname(),
+    		"服务器："      => $_SERVER["SERVER_SOFTWARE"],
+    		"域名："   => $_SERVER['HTTP_HOST'],
+    		"PHP版本："   => phpversion(),
+    		"ThinkPHP版本：" => THINK_VERSION,
+    		"GD库："    => $gdInfo,
+    		"MySQL版本：" => mysql_get_server_info(),
+    		"剩余空间："   => round((disk_free_space(".")/(1024*1024)),2)."M",
+    		"最大上传："   => ini_get("file_uploads") ? ini_get("upload_max_filesize") : "Disabled",
+    		"脚本最大执行时间："  => ini_get("max_execution_time")."秒", 
+    		);
+
+    	$this->ajaxReturn($data);
+    }
 	
+	/* 返回数据库版本号 */
+	private function _mysql_version(){
+        $Model = M();
+        $version = $Model->query("select version() as ver");
+        return $version[0]['ver'];
+    }
 }
