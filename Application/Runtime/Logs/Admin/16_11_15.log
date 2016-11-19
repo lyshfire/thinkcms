@@ -1,0 +1,55 @@
+[ 2016-11-15T20:17:57+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.2180s ]
+
+[ 2016-11-15T20:17:57+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0070s ]
+
+[ 2016-11-15T20:18:00+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+
+[ 2016-11-15T20:18:01+08:00 ] ::1 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0110s ]
+
+[ 2016-11-15T20:18:02+08:00 ] ::1 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin'  [ RunTime:0.0020s ]
+
+[ 2016-11-15T21:06:46+08:00 ] ::1 /thinkcms/admin.php/Index/getSystemInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\workspace\thinkcms\Application\Admin\Controller\IndexController.class.php 第 30 行.
+
+[ 2016-11-15T22:42:22+08:00 ] ::1 /thinkcms/admin.php/Index/getSystemInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\workspace\thinkcms\Application\Admin\Controller\IndexController.class.php 第 30 行.
+
+[ 2016-11-15T23:03:46+08:00 ] ::1 /thinkcms/admin.php/Index/getSystemInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\workspace\thinkcms\Application\Admin\Controller\IndexController.class.php 第 30 行.
+
+[ 2016-11-15T23:48:02+08:00 ] ::1 /thinkcms/admin.php/Index/getSystemInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\workspace\thinkcms\Application\Admin\Controller\IndexController.class.php 第 30 行.
+

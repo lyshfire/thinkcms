@@ -34,6 +34,23 @@ body{
 
 /* 垂直滚动条,参考.pre-scrollable */
 .scrollable-y {
-  max-height: 500px;
-  overflow-y: auto; /*visible(默认值)、scroll、hidden、auto */
+    max-height: 500px;
+    overflow-y: auto; /*visible(默认值)、scroll、hidden、auto */
+}
+
+/* div中的圆形图片,图片大小30*30，下面padding值结合div高度来计算 */
+.div_img{
+    display: inline-block;
+    float: left;
+    height: 50px;
+    padding: 10px 0px 10px 10px;
+    /*border:1px solid transparent;*/
+}
+.div_img >img{
+    border-radius:50%; 
+    overflow:hidden;
+}
+/* 与左边div的边距 */
+#div_a{
+    padding-left:5px;
 }

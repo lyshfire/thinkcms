@@ -16,6 +16,16 @@ $(document).ready(function(){
         
     CKEDITOR.replace('TextArea');
 
+    var menuLeft = document.getElementById( 'cbp-spmenu-s1' );
+    body = document.body;
+    showLeftPush.onclick = function() {
+		classie.toggle( this, 'active' );
+		classie.toggle( body, 'cbp-spmenu-push-toright' );
+		classie.toggle( menuLeft, 'cbp-spmenu-open' );
+	};
+
+	//$('.cbp-spmenu-s1').skidder();
+	$('#menu').slinky({label: true, title: false});
 
     /* 获取系统信息 */
     $('.li_systemInfo').click(function(){

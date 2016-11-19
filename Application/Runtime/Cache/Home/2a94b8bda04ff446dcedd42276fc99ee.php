@@ -28,10 +28,10 @@
           <a class="navbar-brand">前台页面</a>
         </div>
         <div class="collapse navbar-collapse" id="header-collapse">
-          <ul class=" nav navbar-nav mynavbar navbar-right">
+          <ul class=" nav  navbar-nav mynavbar navbar-right">
             <li><a>欢迎您!&nbsp;&nbsp;<span><?php echo ($username); ?></span></a></li>
-            <li><a href="/thinkcms/index.php">首页</a></li>
-            <li><a href="/thinkcms/index.php">退出</a></li>
+            <li><a href="/thinkcms/index1.php">首页</a></li>
+            <li><a href="/thinkcms/index1.php">退出</a></li>
           </ul>
         </div>        
       </div>
