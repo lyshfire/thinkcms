@@ -1,0 +1,13 @@
+[ 2016-11-20T10:52:44+08:00 ] 192.168.1.20 /thinkcms/admin.php/Login/checkVerfy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.3660s ]
+
+[ 2016-11-20T10:52:48+08:00 ] 192.168.1.20 /thinkcms/admin.php/Login/userLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin'  [ RunTime:0.0880s ]
+

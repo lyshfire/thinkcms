@@ -16,6 +16,7 @@ $(document).ready(function(){
         
     CKEDITOR.replace('TextArea');
 
+    /* 点击头像切换菜单 */
     var menuLeft = document.getElementById( 'cbp-spmenu-s1' );
     body = document.body;
     showLeftPush.onclick = function() {
@@ -23,8 +24,19 @@ $(document).ready(function(){
 		classie.toggle( body, 'cbp-spmenu-push-toright' );
 		classie.toggle( menuLeft, 'cbp-spmenu-open' );
 	};
+	/* 左右滑动弹出隐藏菜单 */
+	$('body').hammer().on('swipeleft', function(){
+		classie.remove( this, 'active' );
+		classie.remove( body, 'cbp-spmenu-push-toright' );
+		classie.remove( menuLeft, 'cbp-spmenu-open' );
+	});
+	$('body').hammer().on('swiperight', function(){
+		classie.add( this, 'active' );
+		classie.add( body, 'cbp-spmenu-push-toright' );
+		classie.add( menuLeft, 'cbp-spmenu-open' );
+	});
 
-	//$('.cbp-spmenu-s1').skidder();
+	/* 菜单样式 */
 	$('#menu').slinky({label: true, title: false});
 
     /* 获取系统信息 */

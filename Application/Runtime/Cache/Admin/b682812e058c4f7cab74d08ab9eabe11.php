@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="/thinkcms/Application/Admin/Resource/css/header.css" />
 	<link rel="stylesheet" href="/thinkcms/Public/Resource/css/component.css">
 	<link rel="stylesheet" href="/thinkcms/Public/Resource/css/jquery.slinky.css">
+
 	<title><?php echo ($title); ?></title>
 </head>
 <body class="cbp-spmenu-push">
@@ -1111,6 +1112,8 @@
 	<script type="text/javascript" src="/thinkcms/Public/Resource/js/classie.js"></script>
 	<script type="text/javascript" src="/thinkcms/Public/Resource/js/jquery.slinky.js"></script>
 	<script type="text/javascript" src="/thinkcms/Public/Resource/js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="/thinkcms/Public/Resource/js/hammer.min.js"></script>
+	<script type="text/javascript" src="/thinkcms/Public/Resource/js/jquery.hammer.js"></script>
 	<script type="text/javascript" src="/thinkcms/Public/Resource/ckeditor_4.5.11_full/ckeditor.js" ></script>
 	
 
