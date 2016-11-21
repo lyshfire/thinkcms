@@ -3,34 +3,9 @@ body{
 }
 
 .mynavbar{
-    padding-right: 30px;
-}
-.mynavbar li{	
-	margin-right: 10px;
+    padding-right: 15px;
 }
 
-/*控制菜单箭头*/
-.nav-header.collapsed > span.glyphicon-chevron-toggle:before {
-    content: "\e114";
-}
-
-.nav-header > span.glyphicon-chevron-toggle:before {
-    content: "\e113";
-}
-.firstmenu li {
-	margin-bottom: 5px;
-}
-.secondmenu a {
-    font-size: 14px;
-}
-.secondmenu li{
-	margin-bottom: 5px;
-}
-.secondmenu li.active {
-    background-color: #eee;
-    border-color: #428bca;
-    margin-top: 5px;
-}
 
 /* 垂直滚动条,参考.pre-scrollable */
 .scrollable-y {
@@ -53,4 +28,9 @@ body{
 /* 与左边div的边距 */
 #div_a{
     padding-left:5px;
+}
+
+.container-fluid a,
+.panel-heading a{
+    text-decoration:none;/* 去掉a标签的下划线样式 */
 }

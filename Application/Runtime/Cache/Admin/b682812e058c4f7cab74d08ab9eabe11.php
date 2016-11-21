@@ -32,7 +32,7 @@
 
 				</div>
 				<div class="collapse navbar-collapse" id="header-collapse">
-					<ul class="nav navbar-nav mynavbar navbar-right">
+					<ul class="nav nav-pills nav-stacked navbar-nav mynavbar navbar-right">
 						<li>
 							<a class="dropdown-toggle" data-toggle="dropdown">
 								<span>欢迎您!&nbsp;&nbsp;</span>
@@ -53,7 +53,8 @@
 						</li>
 
 						<li>
-							<a>
+							<a href="#"> 
+								<!-- 徽章 -->
 								消息<span class="badge"></span>
 							</a>
 						</li>
@@ -63,15 +64,24 @@
 								<span>换肤</span>
 								<span class="caret"></span>
 							</a>
-							<ul class="dropdown-menu" role="menu">
+							<ul class="dropdown-menu skin" role="menu">
 						        <li>
-						            <a href="#">默认(黑色)</a>
+						            <a>默认(浅灰)</a>
 						        </li>
 						        <li>
-						            <a href="#">蓝色</a>
-						        </li>						        
+						            <a>红色</a>
+						        </li>
 						        <li>
-						            <a href="#">黄色</a>
+						            <a>绿色</a>
+						        </li>
+						        <li>
+						            <a>蓝色</a>
+						        </li>
+						        <li>
+						            <a>灰色</a>
+						        </li>	
+						        <li>
+						            <a>黑色</a>
 						        </li>
 						    </ul>
 						</li>
@@ -89,8 +99,8 @@
 	<section>
 		<div class="container">	
 			<div id="cbp-spmenu-s1" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left "> 
-				<div id="menu" class="slinky-menu">
-					<ul>						
+				<div id="menu" class="slinky-menu scrollable-y">
+					<ul class="nav-pills nav-stacked">
 						<li class="li_tabs">
 							<a href="#systemManager" >系统管理</a>
 							<ul>
@@ -257,24 +267,18 @@
 							</ul>
 						</li>
 					</ul>
-
-					<!-- <div class="tab-content scrollable-y">
-						<div id="userManager" class="tab-pane ">						
-							<ul class="nav nav-tabs nav-stacked firstmenu">				</ul>
-						</div> 
-					</div> -->
 				</div>
 			</div>
 		</div>	 
 		<div class="container-fluid">
 			<div class="row">			
 				<div class="col-md-12" >
-					<div class="tab-content scrollable-y">			
+					<div class="tab-content ">			
 					<div id="systemManager" class="tab-pane active">
 							<!--带标题面板 -->
 							<div class="panel panel-default">
 							  <div class="panel-heading">
-							  	<div class="container-fluid">
+							  	<div class="container-fluid style_a">
 								    <a>
 								    	<i class="glyphicon glyphicon-th"></i>
 								    	后台首页
@@ -380,8 +384,7 @@
 							  <div class="panel-heading">
 							  	<div class="container-fluid">
 								    <a>
-								    	<i class="glyphicon glyphicon-th"></i>											
-										后台首页
+								    	<i class="glyphicon glyphicon-th"></i>							后台首页
 								    </a>
 								</div>
 							  </div>
@@ -429,8 +432,7 @@
 						<div id="commonManager" class="tab-pane">
 							<div class="container-fluid">
 								<a>
-									<i class="glyphicon glyphicon-th"></i>											
-									系统管理
+									<i class="glyphicon glyphicon-th"></i>系统管理
 									<i class="glyphicon glyphicon-chevron-right"></i>
 									常规管理
 								</a>
@@ -440,8 +442,7 @@
 						<div id="annourmentManager" class="tab-pane">
 							<div class="container-fluid">
 								<a>
-									<i class="glyphicon glyphicon-th"></i>											
-									系统管理
+									<i class="glyphicon glyphicon-th"></i>系统管理
 									<i class="glyphicon glyphicon-chevron-right"></i>
 									公告管理
 								</a>
@@ -452,7 +453,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a>
-										<i class="glyphicon glyphicon-th"></i>											
+										<i class="glyphicon glyphicon-th"></i>
 										系统管理
 										<i class="glyphicon glyphicon-chevron-right"></i>
 										友情链接管理

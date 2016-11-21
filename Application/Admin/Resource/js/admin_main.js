@@ -15,7 +15,7 @@ $(document).ready(function(){
     });
         
     CKEDITOR.replace('TextArea');
-
+    
     /* 点击头像切换菜单 */
     var menuLeft = document.getElementById( 'cbp-spmenu-s1' );
     body = document.body;
@@ -38,6 +38,14 @@ $(document).ready(function(){
 
 	/* 菜单样式 */
 	$('#menu').slinky({label: true, title: false});
+
+
+	/* 换肤颜色 */
+	var skin=["#f8f8f8","#F00","#0F0","#00F","#AAA","#000"];
+	$('.skin li').click(function(){
+		var i = $(this).index(); /* 获得li的position */
+		$('nav').css("background-color",skin[i]);
+	});
 
     /* 获取系统信息 */
     $('.li_systemInfo').click(function(){
