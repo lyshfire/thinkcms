@@ -42,4 +42,16 @@ class IndexController extends Controller {
         $version = $Model->query("select version() as ver");
         return $version[0]['ver'];
     }
+
+    /* 获取用户信息 */
+    public function getUserList(){
+        $User = D("User"); // 实例化User对象
+        $page = I('param.page','');/* 获取页码 */
+        $listRows = I('param.count','');/* 每页列数量 */
+        $firstRow = ($page - 1) * $listRows;
+        $data = $User->getUserList($firstRow,$listRows);
+        $count = $User->getUserListCount();
+        $this->ajaxReturn(array('count' => $count,'data' => $data));
+    }
+
 }

@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="/thinkcms/Application/Admin/Resource/css/header.css" />
 	<link rel="stylesheet" href="/thinkcms/Public/Resource/css/component.css">
 	<link rel="stylesheet" href="/thinkcms/Public/Resource/css/jquery.slinky.css">
-
+	<link rel="stylesheet" href="/thinkcms/Public/Resource/css/jquery.page.css">
 	<title><?php echo ($title); ?></title>
 </head>
 <body class="cbp-spmenu-push">
@@ -110,7 +110,7 @@
 										常规管理
 									</a>
 									<ul id="commonManager" >
-		                            	<li class="li_systemInfo">
+		                            	<li id="li_systemInfo">
 		                            		<a href="#systemInfo">
 		                            			<i class="glyphicon glyphicon-user"></i>&nbsp;系统信息
 		                            		</a>
@@ -165,6 +165,7 @@
 								</li>
 							</ul>
 						</li>
+
 						<li class="li_tabs">
 							<a href="#contentManager">内容管理</a>
 							<ul>
@@ -225,6 +226,7 @@
 								</li>
 							</ul>
 						</li>
+
 						<li class="li_tabs">
 							<a href="#userManager">用户管理</a>
 							<ul>
@@ -257,7 +259,7 @@
 								        		<i class="glyphicon glyphicon-user"></i>&nbsp;添加用户
 								        	</a>
 								        </li>
-								        <li>
+								        <li id="li_userList">
 								        	<a href="#userList">
 								        		<i class="glyphicon glyphicon-th-list"></i>&nbsp;用户列表
 								        	</a>
@@ -481,7 +483,7 @@
 								    
 								</div>
 								<!--响应式表格,数据在js中生成-->
-								<div class="table-responsive">
+								<div id="systeminfo_div" class="table-responsive">
 
 	  							</div>
 							</div>							
@@ -1067,11 +1069,45 @@
 						</div>
 						
 						<div id="userGroupAdd" class="tab-pane">
-							userGroupAdd
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="container-fluid">
+										<a>
+											<i class="glyphicon glyphicon-th"></i>
+											用户管理
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											用户组
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											添加用户组
+										</a>
+									</div>
+								</div>
+								
+								<div class="panel-body">
+									
+								</div>
+							</div>
 						</div>
 						
 						<div id="userGroupList" class="tab-pane">
-							userGroupList
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="container-fluid">
+										<a>
+											<i class="glyphicon glyphicon-th"></i>
+											用户管理
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											用户组列表
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											用户组列表
+										</a>
+									</div>
+								</div>
+								
+								<div class="panel-body">
+									
+								</div>
+							</div>
 						</div>
 						
 						<div id="user" class="tab-pane">
@@ -1093,11 +1129,52 @@
 						</div>
 						
 						<div id="userAdd" class="tab-pane">
-							userAdd
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="container-fluid">
+										<a>
+											<i class="glyphicon glyphicon-th"></i>
+											用户管理
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											用户
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											添加用户
+										</a>
+									</div>
+								</div>
+								
+								<div class="panel-body">
+									
+								</div>
+							</div>
 						</div>
 						
 						<div id="userList" class="tab-pane">
-							userList
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="container-fluid">
+										<a>
+											<i class="glyphicon glyphicon-th"></i>
+											用户管理
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											用户
+											<i class="glyphicon glyphicon-chevron-right"></i>
+											用户列表
+										</a>
+									</div>
+								</div>
+								
+								<div class="panel-body">
+									
+								</div>
+
+								<!--响应式表格,数据在js中生成-->
+								<div id="userlist_div" class="table-responsive">
+
+	  							</div>
+	  							<!-- 分页 -->
+	  							<div class="tcdPageCode"></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1114,7 +1191,9 @@
 	<script type="text/javascript" src="/thinkcms/Public/Resource/js/jquery.slinky.js"></script>
 	<script type="text/javascript" src="/thinkcms/Public/Resource/js/modernizr.custom.js"></script>
 	<script type="text/javascript" src="/thinkcms/Public/Resource/js/hammer.min.js"></script>
-	<script type="text/javascript" src="/thinkcms/Public/Resource/js/jquery.hammer.js"></script>
+	<script type="text/javascript" src="/thinkcms/Public/Resource/js/jquery.hammer.js"></script> 
+	<script type="text/javascript" src="/thinkcms/Public/Resource/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/thinkcms/Public/Resource/js/jquery.page.js"></script>
 	<script type="text/javascript" src="/thinkcms/Public/Resource/ckeditor_4.5.11_full/ckeditor.js" ></script>
 	
 

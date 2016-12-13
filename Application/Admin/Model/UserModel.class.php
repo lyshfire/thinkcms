@@ -47,8 +47,14 @@ class UserModel extends Model
 			}
 			
 		}
-		
-		return -2; /* 用户名不存在 */
-		
+		return -2; /* 用户名不存在 */		
+	}
+
+	function getUserList($firstRow,$listRows){ 
+		return $this->field('id,username,useremail,regtime')->limit($firstRow.','.$listRows)->select();
+	}
+
+	function getUserListCount(){
+		return $this->count();
 	}
 }

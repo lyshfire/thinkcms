@@ -45,10 +45,15 @@ $(document).ready(function(){
 	$('.skin li').click(function(){
 		var i = $(this).index(); /* 获得li的position */
 		$('nav').css("background-color",skin[i]);
+		$.cookie("myskin", skin[i], { path: '/', expires: 10 });
 	});
+	var cookie_skin = $.cookie("myskin"); 
+	if(cookie_skin){
+		$('nav').css("background-color",cookie_skin);
+	}
 
     /* 获取系统信息 */
-    $('.li_systemInfo').click(function(){
+    $('#li_systemInfo').click(function(){
 
     	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getSystemInfo"
 		$.ajax({
@@ -73,7 +78,8 @@ $(document).ready(function(){
 				}
 				tableText += "</tbody></table>";
 				/* 在选中的div中插入表格 */
-				$('.table-responsive').append(tableText);
+				$('#systeminfo_div').empty();
+				$('#systeminfo_div').append(tableText);
 				
 			},
 			error: function(XMLHttpRequest, textStatus, errorThrown) {
@@ -93,5 +99,67 @@ $(document).ready(function(){
 
     });
 
+    window.PageCount;
+    $('#li_userList').click(function(){ 	    	
+    	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";
+    	getPageList(url,1,2); 
+    	$(".tcdPageCode").createPage({
+			pageCount:window.PageCount,
+			current:1,
+			backFn:function(pageCode){
+				getPageList(url,pageCode,2);
+			}
+		}); 	
+    });/* li_userList */
 
-});
+	function getPageList(url,pageCode,count){		
+    	$.ajax({
+			url:url, 
+			dataType:"json",
+			async:false,
+			data:{"page":pageCode,"count":count},
+			type:"POST",
+			success: function (data, textStatus) {
+				createUserTable(data,count);
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown) {
+ 				//alert(XMLHttpRequest.status);
+ 				//alert(XMLHttpRequest.readyState);
+ 				//alert(textStatus);	
+ 				alert('请求出错');
+			},
+			complete: function(XMLHttpRequest, textStatus) {
+				this; // 调用本次AJAX请求时传递的options参数
+				//alert(XMLHttpRequest.status);
+ 				//alert(XMLHttpRequest.readyState);
+ 				//alert(textStatus);
+ 				//alert('请求完成');
+			}
+		});
+	}
+
+	function createUserTable(data,count){
+		var tableText = "<table class=\"table table-bordered table-hover\">";
+		tableText += "<thead><tr> \
+						<th>id</th> \
+						<th>username</th> \
+						<th>useremail</th> \
+						<th>regtime</th> \
+					  </tr></thead> \
+					  <tbody>";
+		var ListCount = parseInt(data['count']);
+		window.PageCount = (ListCount % count) ? Math.ceil(ListCount / count) : (ListCount / count);	
+				
+		for(var rows in data['data']){
+			tableText += "<tr>";
+			for(var cols in data['data'][rows]){
+				tableText += "<td>"+data['data'][rows][cols]+"</td>";	
+			}
+			tableText += "</tr>"
+		}
+		tableText += "</tbody></table>";
+		$('#userlist_div').empty();/* 首先清空被选div下的内容 */
+		$('#userlist_div').append(tableText);
+	}
+
+});/* ready(function()) */
