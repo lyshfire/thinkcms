@@ -230,7 +230,7 @@
 						<li class="li_tabs">
 							<a href="#userManager">用户管理</a>
 							<ul>
-								<li class="li_tabs">					
+								<!-- <li class="li_tabs">					
 									<a href="#userGroup">
 										<i class="glyphicon glyphicon-cog"></i>
 										用户组
@@ -247,14 +247,14 @@
 								    		</a>
 								    	</li>
 								    </ul>
-								</li>
+								</li> -->
 								<li class="li_tabs">					
 									<a href="#user">
 										<i class="glyphicon glyphicon-cog"></i>
 										用户
 									</a>
 									<ul id="user" >		           
-								        <li>
+								        <li id="li_userAdd">
 								        	<a href="#userAdd">
 								        		<i class="glyphicon glyphicon-user"></i>&nbsp;添加用户
 								        	</a>
@@ -1050,7 +1050,7 @@
 							articleList
 						</div>
 						
-						<div id="userGroup" class="tab-pane">
+						<!-- <div id="userGroup" class="tab-pane">
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<div class="container-fluid">
@@ -1108,7 +1108,7 @@
 									
 								</div>
 							</div>
-						</div>
+						</div> -->
 						
 						<div id="user" class="tab-pane">
 							<div class="panel panel-default">
@@ -1145,6 +1145,69 @@
 								
 								<div class="panel-body">
 									
+								</div>
+
+								<div id="logindev">
+									<form  class="form" >		
+										<div class="form-horizontal">						
+											<div class="form-group">
+												<label for="inputUsername" class="col-sm-3 control-label">
+													<span class="pull-right">用户名</span>
+												</label>
+												<div class="col-sm-3">	
+													<input type="text" class="form-control" id="inputUsername" name="username" placeholder="请输入用户名" />
+												</div>
+												<div class="col-sm-offset-3 col-sm-9">
+								  					<span class="usernameinfo"></span>
+								  				</div>
+											</div>	
+								  			
+								  			<div class="form-group"> 
+												<label for="inputPassword" class="col-sm-3 control-label">
+													<span class="pull-right">用户密码</span>
+												</label>
+								    			<div class="col-sm-3">
+								    				<input type="password" class="form-control" id="inputPassword" name="userpwd" placeholder="请输入密码">
+								    			</div>
+								    			<div class="col-sm-offset-3 col-sm-9">
+								  					<span class="userpwdinfo"></span>
+								  				</div>
+								  			</div>
+
+								  			<div class="form-group"> 
+												<label for="inputRePassword" class="col-sm-3 control-label">
+													<span class="pull-right">确认密码</span>
+												</label>
+								    			<div class="col-sm-3">
+								    				<input type="password" class="form-control" id="inputRePassword" name="userrepwd" placeholder="请输入密码">
+								    			</div>
+								    			<div class="col-sm-offset-3 col-sm-9">
+								  					<span class="userrepwdinfo"></span>
+								  				</div>
+								  			</div>
+
+								  			<div class="form-group"> 
+												<label for="inputEmail" class="col-sm-3 control-label">
+													<span class="pull-right">邮箱地址</span>
+												</label>
+								    			<div class="col-sm-3">
+								    				<input type="email" class="form-control" id="inputEmail" name="useremail" placeholder="请输入邮箱地址">
+								    			</div>
+								    			<div class="col-sm-offset-3 col-sm-9">
+								  					<span class="useremailinfo"></span>
+								  				</div>
+								  			</div>
+
+								        	<div class="form-group">
+								  				<div class="col-sm-offset-3 col-sm-1">
+								  					<button id="regsubmit" type="button" class="btn  btn-default btn-block">确定</button>
+								  				</div>
+								  				<div class="col-sm-1 ">
+								  					<button id="reset" type="button" class="btn  btn-default btn-block">重置</button>
+								  				</div>	
+								        	</div>			
+								        </div>
+									</form>
 								</div>
 							</div>
 						</div>

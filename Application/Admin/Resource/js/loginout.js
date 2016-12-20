@@ -170,7 +170,6 @@ $(document).ready(function(){
 			success: function (data, textStatus) {
 				// data could be xmlDoc, jsonObj, html, text, etc...   
 				if(data.ret == true){
-					//alert("注册成功"+window.location.host);
 					window.location.href ="http://"+ window.location.host + "/thinkcms/admin.php";
 				}else{
 					alert(data.info);

@@ -11,7 +11,8 @@ $(document).ready(function(){
         tarId = $(this).attr("href").substring(1);
         tarDiv = $("div[id = " + tarId + "]");
         tarDiv.addClass('active');
-        tarDiv.siblings('div').removeClass('active');       	
+        tarDiv.siblings('div').removeClass('active'); 
+         	
     });
         
     CKEDITOR.replace('TextArea');
@@ -98,19 +99,18 @@ $(document).ready(function(){
 		});
 
     });
-
-    window.PageCount;
-    $('#li_userList').click(function(){ 	    	
-    	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";
-    	getPageList(url,1,2); 
-    	$(".tcdPageCode").createPage({
-			pageCount:window.PageCount,
-			current:1,
-			backFn:function(pageCode){
-				getPageList(url,pageCode,2);
-			}
-		}); 	
+    $('#li_userList').click(function(){ 
+    	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";	    	
+    	//$('.tcdPageCode').children().remove();
+    	getPageList(url,PageCode,2);  
     });/* li_userList */
+    $('.tcdPageCode').createPage({
+		pageCount:10,
+		current:1,
+		backFn:function(PageCode){
+			getPageList(url,PageCode,2);
+		}
+	});
 
 	function getPageList(url,pageCode,count){		
     	$.ajax({
@@ -148,8 +148,8 @@ $(document).ready(function(){
 					  </tr></thead> \
 					  <tbody>";
 		var ListCount = parseInt(data['count']);
-		window.PageCount = (ListCount % count) ? Math.ceil(ListCount / count) : (ListCount / count);	
-				
+		PageCount = (ListCount % count) ? Math.ceil(ListCount / count) : (ListCount / count);	
+		
 		for(var rows in data['data']){
 			tableText += "<tr>";
 			for(var cols in data['data'][rows]){
@@ -160,6 +160,95 @@ $(document).ready(function(){
 		tableText += "</tbody></table>";
 		$('#userlist_div').empty();/* 首先清空被选div下的内容 */
 		$('#userlist_div').append(tableText);
+		
 	}
+
+	$('#regsubmit').click(function(){
+		var username  = $('input[name=username]');
+		var userpwd   = $('input[name=userpwd]');
+		var userrepwd = $('input[name=userrepwd]');
+		var useremail = $('input[name=useremail]');
+
+		if (username.val() == '') {
+			$('.usernameinfo').html("<font color=red>用户名不能为空</font>");
+			username.focus();
+			return false;
+		}
+		if (userpwd.val() == '') {
+			$('.userpwdinfo').html("<font color=red>用户密码不能为空</font>");
+			userpwd.focus();
+			return false;
+		}
+		if (userrepwd.val() == '') {
+			$('.userrepwdinfo').html("<font color=red>用户密码不能为空</font>");
+			userrepwd.focus();
+			return false;
+		}
+		if (useremail.val() == '') {
+			$('.useremailinfo').html("<font color=red>邮箱地址不能为空</font>");
+			useremail.focus();
+			return false;
+		}
+
+		url = "http://"+ window.location.host + "/thinkcms/admin.php/Register/registerUser";
+		
+		$.ajax({
+			url:url, 
+			dataType:"json",
+			data:{"username":username.val(),"userpwd":userpwd.val(),
+				  "userrepwd":userrepwd.val(),"useremail":useremail.val()},
+			type:"POST",
+			success: function (data, textStatus) {
+				// data could be xmlDoc, jsonObj, html, text, etc...   
+				if(data.ret == true){
+					//window.location.href ="http://"+ window.location.host + "/thinkcms/admin.php";
+					alert("添加成功");
+				}else{
+					alert(data.info);
+				}
+				
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown) {
+ 				//alert(XMLHttpRequest.status);
+ 				//alert(XMLHttpRequest.readyState);
+ 				//alert(textStatus);	
+ 				alert('请求出错');
+			},
+			complete: function(XMLHttpRequest, textStatus) {
+				this; // 调用本次AJAX请求时传递的options参数
+				//alert(XMLHttpRequest.status);
+ 				//alert(XMLHttpRequest.readyState);
+ 				//alert(textStatus);
+ 				//alert('请求完成');
+			}
+		});
+
+	});
+	function cleanForm(){
+		var username  = $('input[name=username]');
+		var userpwd   = $('input[name=userpwd]');
+		var userrepwd = $('input[name=userrepwd]');
+		var useremail = $('input[name=useremail]');
+		if (username.val() != '') {
+			username.val("");
+		}
+		if (userpwd.val() != '') {
+			userpwd.val("");
+		}
+		if (userrepwd.val() != '') {
+			userrepwd.val("");
+		}
+		if (useremail.val() != '') {
+			useremail.val("");
+		}
+	}
+
+	$('#reset').click(function(){
+		cleanForm();
+	});
+
+	$('#li_userAdd').click(function(){
+		cleanForm();
+	});
 
 });/* ready(function()) */

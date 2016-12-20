@@ -1,0 +1,748 @@
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:09+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:10+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:10+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:10+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:10+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:10+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:10+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:12+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:12+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:13+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:14+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:18+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:18+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:18+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:00:18+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:23+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:25+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:26+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:27+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:28+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:29+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:29+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:30+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:31+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:33+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:34+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:35+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:36+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:36+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:38+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:39+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:40+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:41+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:00:42+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2,2' at line 1
+ [ SQL语句 ] : SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT -2,2  
+
+[ 2016-12-14T00:02:41+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:43+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:02:43+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:02:45+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:46+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:47+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 2,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:47+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:02:48+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:02:49+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:49+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:50+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:50+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 2,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:51+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:52+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:52+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:52+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 6,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T00:02:54+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 4,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:02:54+08:00 ] ::1 /thinkcms/admin.php/Index/getUserList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`useremail`,`regtime` FROM `think_user` LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-14T00:03:04+08:00 ] ::1 /thinkcms/admin.php/Index/getSystemInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\workspace\thinkcms\Application\Admin\Controller\IndexController.class.php 第 30 行.
+
+[ 2016-12-14T00:03:12+08:00 ] ::1 /thinkcms/admin.php/Index/getSystemInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\workspace\thinkcms\Application\Admin\Controller\IndexController.class.php 第 30 行.
+
