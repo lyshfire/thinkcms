@@ -1233,7 +1233,17 @@
 
 								<!--响应式表格,数据在js中生成-->
 								<div id="userlist_div" class="table-responsive">
-
+									<table class="table table-bordered table-hover text-center">
+	  									<thead>
+		  									<tr>
+		  										<th>id</th>
+		  										<th>username</th>
+		  										<th>useremail</th>
+		  										<th>regtime</th>
+		  									</tr>
+	  									</thead>
+	  									<tbody></tbody>
+									</table>
 	  							</div>
 	  							<!-- 分页 -->
 	  							<div class="tcdPageCode"></div>

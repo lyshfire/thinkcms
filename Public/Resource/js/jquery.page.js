@@ -58,27 +58,30 @@
 		//绑定事件
 		bindEvent:function(obj,args){
 			return (function(){
-				obj.on("click","a.tcdNumber",function(){
+				obj.off('click.current').on("click.current","a.tcdNumber",function(){
 					var current = parseInt($(this).text());
 					ms.fillHtml(obj,{"current":current,"pageCount":args.pageCount});
 					if(typeof(args.backFn)=="function"){
 						args.backFn(current);
+						console.log("click.current");
 					}
 				});
 				//上一页
-				obj.on("click","a.prevPage",function(){
+				obj.off('click.prev').on("click.prev","a.prevPage",function(){
 					var current = parseInt(obj.children("span.current").text());
 					ms.fillHtml(obj,{"current":current-1,"pageCount":args.pageCount});
 					if(typeof(args.backFn)=="function"){
 						args.backFn(current-1);
+						console.log("click.prev");
 					}
 				});
 				//下一页
-				obj.on("click","a.nextPage",function(){
+				obj.off('click.next').on("click.next","a.nextPage",function(){
 					var current = parseInt(obj.children("span.current").text());
 					ms.fillHtml(obj,{"current":current+1,"pageCount":args.pageCount});
 					if(typeof(args.backFn)=="function"){
 						args.backFn(current+1);
+						console.log("click.next");
 					}
 				});
 			})();

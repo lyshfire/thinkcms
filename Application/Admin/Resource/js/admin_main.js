@@ -55,7 +55,6 @@ $(document).ready(function(){
 
     /* 获取系统信息 */
     $('#li_systemInfo').click(function(){
-
     	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getSystemInfo"
 		$.ajax({
 			url:url, 
@@ -99,18 +98,20 @@ $(document).ready(function(){
 		});
 
     });
+
+    window.PageCount = 0;
     $('#li_userList').click(function(){ 
-    	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";	    	
-    	//$('.tcdPageCode').children().remove();
-    	getPageList(url,PageCode,2);  
+    	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";	  
+    	getPageList(url,1,2);  
+    	$('.tcdPageCode').createPage({
+			pageCount: window.PageCount,
+			current:1,
+			backFn:function(PageCode){
+				getPageList(url,PageCode,2);
+			}
+		});
     });/* li_userList */
-    $('.tcdPageCode').createPage({
-		pageCount:10,
-		current:1,
-		backFn:function(PageCode){
-			getPageList(url,PageCode,2);
-		}
-	});
+    
 
 	function getPageList(url,pageCode,count){		
     	$.ajax({
@@ -139,16 +140,9 @@ $(document).ready(function(){
 	}
 
 	function createUserTable(data,count){
-		var tableText = "<table class=\"table table-bordered table-hover\">";
-		tableText += "<thead><tr> \
-						<th>id</th> \
-						<th>username</th> \
-						<th>useremail</th> \
-						<th>regtime</th> \
-					  </tr></thead> \
-					  <tbody>";
+		var tableText = "";
 		var ListCount = parseInt(data['count']);
-		PageCount = (ListCount % count) ? Math.ceil(ListCount / count) : (ListCount / count);	
+		window.PageCount = (ListCount % count) ? Math.ceil(ListCount / count) : (ListCount / count);	
 		
 		for(var rows in data['data']){
 			tableText += "<tr>";
@@ -157,9 +151,8 @@ $(document).ready(function(){
 			}
 			tableText += "</tr>"
 		}
-		tableText += "</tbody></table>";
-		$('#userlist_div').empty();/* 首先清空被选div下的内容 */
-		$('#userlist_div').append(tableText);
+		$('#userlist_div tbody').empty();/* 首先清空被选tbody下的内容 */
+		$('#userlist_div tbody').append(tableText);
 		
 	}
 
