@@ -101,17 +101,20 @@ $(document).ready(function(){
 
     window.PageCount = 0;
     $('#li_userList').click(function(){ 
-    	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";	  
-    	getPageList(url,1,2);  
-    	$('.tcdPageCode').createPage({
-			pageCount: window.PageCount,
-			current:1,
-			backFn:function(PageCode){
-				getPageList(url,PageCode,2);
-			}
-		});
+    	creatPageList(1);
     });/* li_userList */
     
+    function creatPageList(pageCode){
+    	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";	  
+    	getPageList(url,pageCode,10);  
+    	$('.tcdPageCode').createPage({
+			pageCount: window.PageCount,
+			current:pageCode,
+			backFn:function(PageCode){
+				getPageList(url,PageCode,10);
+			}
+		});
+    }
 
 	function getPageList(url,pageCode,count){		
     	$.ajax({
@@ -121,7 +124,7 @@ $(document).ready(function(){
 			data:{"page":pageCode,"count":count},
 			type:"POST",
 			success: function (data, textStatus) {
-				createUserTable(data,count);
+				createUserTable(data,pageCode,count);
 			},
 			error: function(XMLHttpRequest, textStatus, errorThrown) {
  				//alert(XMLHttpRequest.status);
@@ -139,7 +142,7 @@ $(document).ready(function(){
 		});
 	}
 
-	function createUserTable(data,count){
+	function createUserTable(data,pageCode,count){
 		var tableText = "";
 		var ListCount = parseInt(data['count']);
 		window.PageCount = (ListCount % count) ? Math.ceil(ListCount / count) : (ListCount / count);	
@@ -149,11 +152,65 @@ $(document).ready(function(){
 			for(var cols in data['data'][rows]){
 				tableText += "<td>"+data['data'][rows][cols]+"</td>";	
 			}
-			tableText += "</tr>"
+			tableText += "<td>"+"<a>删除</a>"+"</td>";
+			tableText += "</tr>";
 		}
-		$('#userlist_div tbody').empty();/* 首先清空被选tbody下的内容 */
-		$('#userlist_div tbody').append(tableText);
-		
+		$('#usertable > tbody').children().remove();/* 首先清空被选tbody下的内容 */
+		$('#usertable > tbody').append(tableText);
+		$("#usertable > thead").find("tr").each(function(){
+	　　	$(this).find("th").css("text-align","center");
+	　　});
+		$("#usertable > tbody").find("tr").each(function(){
+	　　	var item = $(this).children('td:first-child').text();
+			var username = $(this).children('td:nth-child(2)').text();
+			$(this).find('a').click(function(){
+				createDialog(username,pageCode,item);		
+			});
+	　　});
+	}
+
+	function deteleOneUser(pageCode,item){
+		url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/deteleOneUser";
+		$.ajax({
+			url:url, 
+			dataType:"json",
+			async:false,
+			data:{"item":item},
+			type:"POST",
+			success: function (data, textStatus) {
+				creatPageList(pageCode);			
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown) {	
+ 				alert('请求出错');
+			},
+			complete: function(XMLHttpRequest, textStatus) {
+				this; // 调用本次AJAX请求时传递的options参数
+			}
+		});
+	}
+
+	function createDialog(username,pageCode,item) {
+		$.confirm({
+			title: '请确认是否删除',
+			content: '确定要删除'+username+'用户吗？',
+			buttons: {   
+				ok: {
+				    text: "确定",
+				    btnClass: 'btn-primary',
+				    keys: ['enter'],
+				    action: function(){
+				        deteleOneUser(pageCode,item);
+				    }
+				},
+				cancel: {
+				    text: "取消",
+				    btnClass: 'btn-primary',
+				    action: function(){
+				        console.log('取消');
+				    }
+				}
+			}
+		});
 	}
 
 	$('#regsubmit').click(function(){
@@ -183,8 +240,7 @@ $(document).ready(function(){
 			return false;
 		}
 
-		url = "http://"+ window.location.host + "/thinkcms/admin.php/Register/registerUser";
-		
+		var url = "http://"+ window.location.host + "/thinkcms/admin.php/Register/registerUser";
 		$.ajax({
 			url:url, 
 			dataType:"json",
@@ -194,8 +250,21 @@ $(document).ready(function(){
 			success: function (data, textStatus) {
 				// data could be xmlDoc, jsonObj, html, text, etc...   
 				if(data.ret == true){
-					//window.location.href ="http://"+ window.location.host + "/thinkcms/admin.php";
-					alert("添加成功");
+					$.alert({
+						title: '添加用户',
+						content: '添加成功',
+						buttons: {
+							ok: {
+							    text: "确定",
+							    btnClass: 'btn-primary',
+							    keys: ['enter'],
+							    action: function(){
+							        cleanForm();
+							    }
+							}
+						}
+					});
+					
 				}else{
 					alert(data.info);
 				}

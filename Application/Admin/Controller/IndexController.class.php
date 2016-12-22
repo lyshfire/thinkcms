@@ -54,4 +54,15 @@ class IndexController extends Controller {
         $this->ajaxReturn(array('count' => $count,'data' => $data));
     }
 
+    public function deteleOneUser(){
+        $User = D("User"); // 实例化User对象
+        $item = I('param.item','');
+        $count = $User->deleteOneUser($item);
+        if($count){
+            $this->ajaxReturn(array('count' => $count));
+        }else{
+            $this->ajaxReturn(array('count' => 0));
+        }
+    }
+
 }

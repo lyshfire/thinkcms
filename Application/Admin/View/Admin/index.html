@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="__ROOT__/Public/Resource/css/component.css">
 	<link rel="stylesheet" href="__ROOT__/Public/Resource/css/jquery.slinky.css">
 	<link rel="stylesheet" href="__ROOT__/Public/Resource/css/jquery.page.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Resource/css/jquery.confirm.css">
 	<title>{$title}</title>
 </head>
 <body class="cbp-spmenu-push">
@@ -485,7 +486,7 @@
 								<!--响应式表格,数据在js中生成-->
 								<div id="systeminfo_div" class="table-responsive">
 
-	  							</div>
+	  						</div>
 							</div>							
 						</div>
 						
@@ -1131,7 +1132,7 @@
 						<div id="userAdd" class="tab-pane">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<div class="container-fluid">
+									<!-- <div class="container-fluid"> -->
 										<a>
 											<i class="glyphicon glyphicon-th"></i>
 											用户管理
@@ -1140,7 +1141,7 @@
 											<i class="glyphicon glyphicon-chevron-right"></i>
 											添加用户
 										</a>
-									</div>
+									<!-- </div> -->
 								</div>
 								
 								<div class="panel-body">
@@ -1213,9 +1214,9 @@
 						</div>
 						
 						<div id="userList" class="tab-pane">
-							<div class="panel panel-default">
+							<div class="panel panel-info">
 								<div class="panel-heading">
-									<div class="container-fluid">
+									<!-- <div class="container-fluid"> -->
 										<a>
 											<i class="glyphicon glyphicon-th"></i>
 											用户管理
@@ -1224,29 +1225,37 @@
 											<i class="glyphicon glyphicon-chevron-right"></i>
 											用户列表
 										</a>
-									</div>
+									<!-- </div> -->
 								</div>
 								
 								<div class="panel-body">
-									
+									--响应式表格,数据在js中生成-->
+									--响应式表格,数据在js中生成-->
+									--响应式表格,数据在js中生成-->
+									--响应式表格,数据在js中生成-->
+									--响应式表格,数据在js中生成-->
+									--响应式表格,数据在js中生成-->
+									--响应式表格,数据在js中生成-->
 								</div>
 
 								<!--响应式表格,数据在js中生成-->
-								<div id="userlist_div" class="table-responsive">
-									<table class="table table-bordered table-hover text-center">
-	  									<thead>
-		  									<tr>
-		  										<th>id</th>
-		  										<th>username</th>
-		  										<th>useremail</th>
-		  										<th>regtime</th>
-		  									</tr>
-	  									</thead>
-	  									<tbody></tbody>
+								<div id="userlist_div" class="table-responsive"> 
+									<table class="table table-bordered table-hover text-center" id="usertable">		
+	  								<thead>
+		  								<tr>
+		  									<th>id</th>
+		  									<th>username</th>
+		  									<th>useremail</th>
+		  									<th>regtime</th>
+		  									<th>operation</th>
+		  								</tr>
+	  								</thead>
+	  								<tbody></tbody>
 									</table>
-	  							</div>
-	  							<!-- 分页 -->
-	  							<div class="tcdPageCode"></div>
+	  						</div> 
+
+	  						<!-- 分页 -->
+	  						<div class="tcdPageCode"></div>
 							</div>
 						</div>
 					</div>
@@ -1267,6 +1276,7 @@
 	<script type="text/javascript" src="__ROOT__/Public/Resource/js/jquery.hammer.js"></script> 
 	<script type="text/javascript" src="__ROOT__/Public/Resource/js/jquery.cookie.js"></script>
 	<script type="text/javascript" src="__ROOT__/Public/Resource/js/jquery.page.js"></script>
+	<script type="text/javascript" src="__ROOT__/Public/Resource/js/jquery.confirm.js"></script>
 	<script type="text/javascript" src="__ROOT__/Public/Resource/ckeditor_4.5.11_full/ckeditor.js" ></script>
 	
 

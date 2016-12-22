@@ -57,4 +57,9 @@ class UserModel extends Model
 	function getUserListCount(){
 		return $this->count();
 	}
+
+	function deleteOneUser($item){
+		$map['id'] = $item;
+		return $this->where($map)->delete();
+	}
 }
