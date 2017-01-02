@@ -177,17 +177,17 @@
 										<span class="pull-right glyphicon glyphicon-chevron-toggle"></span>
 									</a>
 									<ul id="photoAblumManager" >
-		                            	<li>
-			                            	<a href="#photoAblumAdd" >
-			                            		<i class="glyphicon glyphicon-user"></i>&nbsp;添加相册
-			                            	</a>
-		                            	</li>
-		                            	<li>
-		                            		<a href="#photoAblumList" data-toggle="tab">
-		                            			<i class="glyphicon glyphicon-th-list"></i>&nbsp;相册列表
-		                            		</a>
-		                            	</li>
-		                        	</ul>
+		                <li>
+			                <a href="#photoAblumAdd" >
+			                  <i class="glyphicon glyphicon-user"></i>&nbsp;添加相册
+			                </a>
+		                </li>
+		                <li>
+		                  <a href="#photoAblumList" data-toggle="tab">
+		                    <i class="glyphicon glyphicon-th-list"></i>&nbsp;相册列表
+		                  </a>
+		                </li>
+		              </ul>           	
 								</li>
 								<li class="li_tabs">					
 									<a href="#imagesManager">
@@ -1008,37 +1008,37 @@
 												<label class="col-sm-2 control-label">文章类别</label>
 												<div class="col-sm-2">
 													<select class="form-control">
-														<option>根目录</option>
+													  <option>其他</option>
+													  <option>技术</option>
+														<option>人文</option>
+														<option>科学</option>
+														<option>感情</option>
 													</select>
 												</div>
-												<label class="control-label" style="padding-left: 15px;">
-													<input type="checkbox" />&nbsp;记住选项
-												</label>
 											</div>
 											
 											<div class="form-group">
 												<label class="col-sm-2 control-label">文章标题*</label>
-												<div class="col-sm-2">
-													<input type="text" />
+												<div class="col-sm-4">	
+													<input type="text" class="form-control" id="ArticleTitle" name="title" />
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-2 control-label">关键字*</label>
+												<div class="col-sm-4">	
+													<input type="text" class="form-control" id="ArticleKeyword" name="keyword" />
 												</div>
 											</div>
 											<div class="form-group">
 												<label class="col-sm-2 control-label">文章摘要</label>
+												<div class="col-sm-4">
+													<textarea id="summary" class="form-control" rows="3" cols="20"></textarea>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-sm-1 control-label sr-only"></label>
 												<div class="col-sm-10">
-													<textarea id="TextArea" class="form-control ckeditor" rows="3" cols="20"></textarea>
-												</div>
-											</div>
-											<div class="form-group">
-												<label class="col-sm-2 control-label">文章来源</label>
-												<div class="col-sm-2">
-													<input type="text" />
-												</div>
-											</div>
-											
-											<div class="form-group">
-												<label class="col-sm-2 control-label">关键字*</label>
-												<div class="col-sm-2">
-													<input type="text" />
+													<textarea id="TextArea" class="form-control" rows="10" cols="10"></textarea>
 												</div>
 											</div>
 										</div>
@@ -1048,7 +1048,41 @@
 						</div>
 						
 						<div id="articleList" class="tab-pane">
-							articleList
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<a>
+										<i class="glyphicon glyphicon-th"></i>
+											内容管理
+										<i class="glyphicon glyphicon-chevron-right"></i>
+											文章管理
+										<i class="glyphicon glyphicon-chevron-right"></i>
+											文章列表
+									</a>
+								</div>
+								
+								<div class="panel-body">
+									
+								</div>
+								
+								<!--响应式表格,数据在js中生成-->
+								<div id="articlelist_div" class="table-responsive"> 
+									<table class="table table-bordered table-hover text-center" id="usertable">	 <thead>
+		  								<tr>
+		  									<th>id</th>
+		  									<th>title</th>
+		  									<th>summary</th>
+		  									<th>poattime</th>
+		  									<th>keyword</th>
+		  								</tr>
+	  								</thead>
+	  								<tbody></tbody>
+									</table>
+	  						</div> 
+
+	  						<!-- 分页 -->
+	  						<div class="ArticlePageCode"></div>
+
+							</div>
 						</div>
 						
 						<!-- <div id="userGroup" class="tab-pane">
@@ -1216,26 +1250,18 @@
 						<div id="userList" class="tab-pane">
 							<div class="panel panel-info">
 								<div class="panel-heading">
-									<!-- <div class="container-fluid"> -->
-										<a>
-											<i class="glyphicon glyphicon-th"></i>
+									<a>
+										<i class="glyphicon glyphicon-th"></i>
 											用户管理
-											<i class="glyphicon glyphicon-chevron-right"></i>
+										<i class="glyphicon glyphicon-chevron-right"></i>
 											用户
-											<i class="glyphicon glyphicon-chevron-right"></i>
+										<i class="glyphicon glyphicon-chevron-right"></i>
 											用户列表
-										</a>
-									<!-- </div> -->
+									</a>
 								</div>
 								
 								<div class="panel-body">
-									--响应式表格,数据在js中生成-->
-									--响应式表格,数据在js中生成-->
-									--响应式表格,数据在js中生成-->
-									--响应式表格,数据在js中生成-->
-									--响应式表格,数据在js中生成-->
-									--响应式表格,数据在js中生成-->
-									--响应式表格,数据在js中生成-->
+									
 								</div>
 
 								<!--响应式表格,数据在js中生成-->

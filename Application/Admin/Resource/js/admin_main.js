@@ -62,15 +62,6 @@ $(document).ready(function(){
 			data:{},
 			type:"POST",
 			success: function (data, textStatus) {
-				// data could be xmlDoc, jsonObj, html, text, etc...   
-				/*var $td = $('.table td');
-				var i=0;
-				for(var key in data){
-				   //alert(key+" "+data[key]);
-				   $($td[i++]).html(''+key+':');
-				   $($td[i++]).html(''+data[key]);
-				}*/
-				
 				var tableText = "<table class=\"table table-bordered table-hover\">";
 				tableText += "<thead><tr><th>名称</th><th>信息</th></tr></thead><tbody>";
 				for(var key in data){
@@ -83,17 +74,10 @@ $(document).ready(function(){
 				
 			},
 			error: function(XMLHttpRequest, textStatus, errorThrown) {
- 				//alert(XMLHttpRequest.status);
- 				//alert(XMLHttpRequest.readyState);
- 				//alert(textStatus);	
  				alert('请求出错');
 			},
 			complete: function(XMLHttpRequest, textStatus) {
 				this; // 调用本次AJAX请求时传递的options参数
-				//alert(XMLHttpRequest.status);
- 				//alert(XMLHttpRequest.readyState);
- 				//alert(textStatus);
- 				//alert('请求完成');
 			}
 		});
 
@@ -106,12 +90,12 @@ $(document).ready(function(){
     
     function creatPageList(pageCode){
     	url = "http://"+ window.location.host + "/thinkcms/admin.php/Index/getUserList";	  
-    	getPageList(url,pageCode,10);  
+    	getPageList(url,pageCode,3);  
     	$('.tcdPageCode').createPage({
 			pageCount: window.PageCount,
 			current:pageCode,
 			backFn:function(PageCode){
-				getPageList(url,PageCode,10);
+				getPageList(url,PageCode,3);
 			}
 		});
     }
@@ -259,34 +243,26 @@ $(document).ready(function(){
 							    btnClass: 'btn-primary',
 							    keys: ['enter'],
 							    action: function(){
-							        cleanForm();
+							        cleanUserForm();
 							    }
 							}
 						}
-					});
-					
+					});		
 				}else{
 					alert(data.info);
 				}
 				
 			},
-			error: function(XMLHttpRequest, textStatus, errorThrown) {
- 				//alert(XMLHttpRequest.status);
- 				//alert(XMLHttpRequest.readyState);
- 				//alert(textStatus);	
+			error: function(XMLHttpRequest, textStatus, errorThrown) {	
  				alert('请求出错');
 			},
 			complete: function(XMLHttpRequest, textStatus) {
 				this; // 调用本次AJAX请求时传递的options参数
-				//alert(XMLHttpRequest.status);
- 				//alert(XMLHttpRequest.readyState);
- 				//alert(textStatus);
- 				//alert('请求完成');
 			}
 		});
 
 	});
-	function cleanForm(){
+	function cleanUserForm(){
 		var username  = $('input[name=username]');
 		var userpwd   = $('input[name=userpwd]');
 		var userrepwd = $('input[name=userrepwd]');
@@ -306,11 +282,11 @@ $(document).ready(function(){
 	}
 
 	$('#reset').click(function(){
-		cleanForm();
+		cleanUserForm();
 	});
 
 	$('#li_userAdd').click(function(){
-		cleanForm();
+		cleanUserForm();
 	});
 
 });/* ready(function()) */
